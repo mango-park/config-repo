@@ -1,9 +1,3 @@
-spring:
-  application:
-    name: HelloServer
-  config:
-    import: optional:configserver:http://${CONFIGSERVER.HOST}
-
 server:
   port: 7111
 
